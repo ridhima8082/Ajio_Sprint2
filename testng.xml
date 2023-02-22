@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/sudan/IdeaProjectsCapG/Sprint2">
+        <classes>
+            <class name="steps.StepDefinitions"><methods>
+            <include name="the_user_navigates_to_the_homepage"/>
+            <include name="theUserNavigatesToTheAjio_homepage"/>
+            <include name="theUserNavigatesToTheMenSCategoryPage"/>
+            <include name="theUserNavigatesToTheWomenSCategoryPage"/>
+            <include name="theUserNavigatesToThePageOfMenSCategory"/>
+            <include name="theUserNavigatesToThePageOfWomenSCategory"/>
+            <include name="theUserNavigatesToTheAjioHomepage"/>
+            <include name="theUserNavigatesToTheHomepageOfAjio"/>
+        </methods>
+        </class>
+            <class name="runner.TestRunner">
+
+            </class>
+        </classes>
+    </test>
+</suite>
