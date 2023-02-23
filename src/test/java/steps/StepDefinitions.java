@@ -11,6 +11,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import utils.BrowserManager;
@@ -197,25 +198,21 @@ public class StepDefinitions {
         driver.get(url);
         data = TestDataReader.getData(scenario.getName());
     }
-    @When("the user clicks on searchbar")
-    public void theUserClicksOnSearchbar() {
+    @When("the user clicks on searchbar and enters {string}")
+    public void theUserClicksOnSearchbarAndEnters(String product1) throws InterruptedException {
         homePage = new HomePage(driver);
         homePage.searchbox().click();
+        Thread.sleep(3000);
+        homePage.searchbox().sendKeys(product1);
+        Thread.sleep(4000);
+        homePage.SearchButton().click();
     }
 
-    @And("and user enters {string}")
-    public void andUserEnters(String arg0) {
-        homePage.searchbox().sendKeys("jeans");
-        homePage.searchbox().sendKeys("bags");
+        @Then("Products gets displayed")
+    public void productsGetsDisplayed() {
+            WebElement text = homePage.Outcome();
+            Assert.assertTrue(text.isDisplayed());
     }
-
-    @Then("{string} gets displayed")
-    public void getsDisplayed(String arg0) {
-        String text=homePage.FoundElements().getText();
-        Assert.assertTrue(text.contains("Items Found"));
-
-    }
-
 
 }
 

@@ -32,10 +32,10 @@ public class Hooks {
         }
 
     }
-    //@After(order=0)
-    //public void tearDown(){
-        //browserManager.getDriver().quit();
-    //}
+    @After(order=0)
+    public void tearDown(){
+        browserManager.getDriver().quit();
+    }
 
 
 }

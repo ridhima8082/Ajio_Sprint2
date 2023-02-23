@@ -38,16 +38,15 @@ Feature: Ajio Customization
     Given the user navigates to the ajio homepage
     When the user click on the option to display categories in Kidss section
     Then the brands and offers under Kids section to be displayed.
-  @smoke
+
   Scenario Outline: User should be able to search two products
     Given the user navigates to the homepage of ajio
-    When the user clicks on searchbar
-    And and user enters "<product1>"
-    Then "<EMessage>" gets displayed
+    When the user clicks on searchbar and enters "<product1>"
+    Then Products gets displayed
     Examples:
-    | product1 |     | EMessage              |
-    | jeans    |     | Items found           |
-    | bags     |     | Items found           |
+    | product1 |
+    | jeans    |
+    | bags     |
 
 
 

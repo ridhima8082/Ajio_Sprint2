@@ -41,12 +41,11 @@ public class HomePage {
         return B_Levis;
     }
 
-    @FindBy(xpath="//a[@href=\"/levis-203140-uv-protected-full-rim-oval-sunglasses/p/460884997_black\"]")
+    @FindBy(xpath="//img[@src=\"https://assets.ajio.com/medias/sys_master/root/20220611/LRou/62a39aecf997dd03e27184d5/levis_pink_brand_print_crew-neck_t-shirt.jpg\"]")
     WebElement Product_Levis;
     public WebElement Product_Levis(){
         return Product_Levis;
     }
-
     @FindBy(xpath="//a[@title=\"KIDS\"]")
     WebElement Kids;
     public WebElement Kids(){
@@ -58,11 +57,16 @@ public class HomePage {
     public WebElement searchbox(){
         return searchbox;
     }
-    //div[@class="length"]
-    @FindBy(xpath="//div[@class=\"length\"]")
-    WebElement FoundElements;
-    public WebElement FoundElements(){
-        return FoundElements;
+
+    @FindBy(xpath="//div[@class=\"header2\"]")
+    WebElement Outcome;
+    public WebElement Outcome(){
+        return Outcome;
+    }
+    @FindBy(xpath="//button[@class=\"rilrtl-button\"]")
+    WebElement SearchButton;
+    public WebElement SearchButton(){
+        return SearchButton;
     }
 
 
