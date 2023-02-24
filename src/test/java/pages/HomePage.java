@@ -40,9 +40,11 @@ public class HomePage {
     public WebElement B_Levis(){
         return B_Levis;
     }
-
-    @FindBy(xpath="//img[@src=\"https://assets.ajio.com/medias/sys_master/root/20220611/LRou/62a39aecf997dd03e27184d5/levis_pink_brand_print_crew-neck_t-shirt.jpg\"]")
+    //img[@src="https://assets.ajio.com/medias/sys_master/root/20220427/j4s7/62684207aeb26921af44fc76/levis_pink_204331_full-rim_oversized_sunglasses.jpg"]
+    //img[@src=\"https://assets.ajio.com/medias/sys_master/root/20220611/LRou/62a39aecf997dd03e27184d5/levis_pink_brand_print_crew-neck_t-shirt.jpg\"]"
+    @FindBy(xpath="//img[@src=\"https://assets.ajio.com/medias/sys_master/root/20220704/75u0/62c2fdb2aeb26921af5eef35/levis_blue_710_mid-wash_super_skinny_fit_jeans.jpg\"]")
     WebElement Product_Levis;
+    //div[@class="469203848001"]
     public WebElement Product_Levis(){
         return Product_Levis;
     }

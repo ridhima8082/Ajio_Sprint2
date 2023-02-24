@@ -12,6 +12,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import utils.BrowserManager;
@@ -161,7 +163,8 @@ public class StepDefinitions {
     }
 
     @And("the user selects particular product from the brand in women's section")
-    public void theUserSelectsParticularProductFromTheBrandInWomenSSection() {
+    public void theUserSelectsParticularProductFromTheBrandInWomenSSection() throws InterruptedException {
+        Thread.sleep(5000);
         homePage.Product_Levis().click();
 
     }
@@ -201,6 +204,8 @@ public class StepDefinitions {
     @When("the user clicks on searchbar and enters {string}")
     public void theUserClicksOnSearchbarAndEnters(String product1) throws InterruptedException {
         homePage = new HomePage(driver);
+        WebDriverWait wait=new WebDriverWait(driver,3); //explicit wait
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@name=\"searchVal\"]"))));
         homePage.searchbox().click();
         Thread.sleep(3000);
         homePage.searchbox().sendKeys(product1);
