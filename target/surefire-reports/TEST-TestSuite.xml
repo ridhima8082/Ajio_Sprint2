@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="322.253" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="673.156" tests="9" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="webdriver.chrome.driver" value="C:\Users\sudan\.cache\selenium\chromedriver\win32\110.0.5481.77\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\sudan\AppData\Local\Temp\surefire11524953456719463194\surefirebooter-20230223161119593_3.jar C:\Users\sudan\AppData\Local\Temp\surefire11524953456719463194 2023-02-23T16-11-17_894-jvmRun1 surefire-20230223161119593_1tmp surefire_0-20230223161119593_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sudan\AppData\Local\Temp\surefire7223214809843613817\surefirebooter-20230227131742647_3.jar C:\Users\sudan\AppData\Local\Temp\surefire7223214809843613817 2023-02-27T13-17-41_472-jvmRun1 surefire-20230227131742647_1tmp surefire_0-20230227131742647_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\sudan\IdeaProjectsCapG\Sprint2\target\test-classes;C:\Users\sudan\IdeaProjectsCapG\Sprint2\target\classes;C:\Users\sudan\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\Users\sudan\.m2\repository\io\cucumber\cucumber-core\7.10.1\cucumber-core-7.10.1.jar;C:\Users\sudan\.m2\repository\io\cucumber\cucumber-gherkin\7.10.1\cucumber-gherkin-7.10.1.jar;C:\Users\sudan\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.1\cucumber-gherkin-messages-7.10.1.jar;C:\Users\sudan\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\sudan\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\sudan\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\sudan\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\sudan\.m2\repository\io\cucumber\datatable\7.10.1\datatable-7.10.1.jar;C:\Users\sudan\.m2\repository\io\cucumber\cucumber-plugin\7.10.1\cucumber-plugin-7.10.1.jar;C:\Users\sudan\.m2\repository\io\cucumber\docstring\7.10.1\docstring-7.10.1.jar;C:\Users\sudan\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\sudan\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\sudan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sudan\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\sudan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sudan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sudan\.m2\repository\org\apache\poi\poi\5.1.0\poi-5.1.0.jar;C:\Users\sudan\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\sudan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sudan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sudan\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\sudan\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sudan\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\sudan\.m2\repository\org\apache\poi\poi-ooxml\5.2.1\poi-ooxml-5.2.1.jar;C:\Users\sudan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.1\poi-ooxml-lite-5.2.1.jar;C:\Users\sudan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\sudan\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\sudan\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\sudan\.m2\repository\io\cucumber\cucumber-picocontainer\7.11.0\cucumber-picocontainer-7.11.0.jar;C:\Users\sudan\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sudan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sudan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sudan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sudan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sudan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sudan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sudan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sudan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sudan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sudan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sudan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sudan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.1\webdrivermanager-5.1.1.jar;C:\Users\sudan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sudan\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\sudan\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\sudan\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\sudan\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\sudan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\sudan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\sudan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\sudan\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\sudan\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\sudan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\sudan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\sudan\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\sudan\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\sudan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\sudan\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\sudan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\sudan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\sudan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\sudan\.m2\repository\io\cucumber\cucumber-testng\7.11.0\cucumber-testng-7.11.0.jar;C:\Users\sudan\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sudan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sudan\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sudan\AppData\Local\Temp\surefire11524953456719463194\surefirebooter-20230223161119593_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sudan\AppData\Local\Temp\surefire7223214809843613817\surefirebooter-20230227131742647_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Verify that the user can be able to select a product from Men&apos;s Category&quot;, &quot;Ajio Customization&quot;](1)" classname="runner.TestRunner" time="59.862">
+  <testcase name="runScenario[&quot;Verify that the user can be able to select a product from Men&apos;s Category&quot;, &quot;Ajio Customization&quot;](1)" classname="runner.TestRunner" time="72.21">
     <system-out><![CDATA[
 Scenario: Verify that the user can be able to select a product from Men's Category # src/test/resources/feature/ajio_customizatin.feature:3
 1
@@ -78,65 +78,67 @@ Scenario: Verify that the user can be able to select a product from Men's Catego
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 38778
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 27976
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677148896.668][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 23, 2023 4:11:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677484086.385][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 1:18:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that the user can be able to select a product from Women&apos;s Category&quot;, &quot;Ajio Customization&quot;](2)" classname="runner.TestRunner" time="34.935">
+  <testcase name="runScenario[&quot;Verify that the user can be able to select a product from Women&apos;s Category&quot;, &quot;Ajio Customization&quot;](2)" classname="runner.TestRunner" time="47.303">
     <system-out><![CDATA[
 Scenario: Verify that the user can be able to select a product from Women's Category # src/test/resources/feature/ajio_customizatin.feature:9
   Given the user navigates to the ajio_homepage                                      # steps.StepDefinitions.theUserNavigatesToTheAjio_homepage()
   When the user click on the option to display categories in Women's section         # steps.StepDefinitions.theUserClickOnTheOptionToDisplayCategoriesInWomenSSection()
   Then the brands and offers under women's section to be displayed.                  # steps.StepDefinitions.theBrandsAndOffersUnderWomenSSectionToBeDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 7346
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 3064
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677148947.840][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 23, 2023 4:12:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677484149.355][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 1:19:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that the user is able to select a particular brand from Men&apos;s Category&quot;, &quot;Ajio Customization&quot;](3)" classname="runner.TestRunner" time="35.635">
+  <testcase name="runScenario[&quot;Verify that the user is able to select a particular brand from Men&apos;s Category&quot;, &quot;Ajio Customization&quot;](3)" classname="runner.TestRunner" time="49.359">
     <system-out><![CDATA[
 Scenario: Verify that the user is able to select a particular brand from Men's Category # src/test/resources/feature/ajio_customizatin.feature:15
   Given the user navigates to the men's category page                                   # steps.StepDefinitions.theUserNavigatesToTheMenSCategoryPage()
   When the user selects particular brand from men's category                            # steps.StepDefinitions.theUserSelectsParticularBrandFromMenSCategory()
   Then the products from men's section of the particular brand gets displayed           # steps.StepDefinitions.theProductsFromMenSSectionOfTheParticularBrandGetsDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 27396
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 15253
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677148982.526][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 23, 2023 4:13:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677484197.668][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 1:19:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that the user is able to select a particular brand from Women&apos;s Category&quot;, &quot;Ajio Customization&quot;](4)" classname="runner.TestRunner" time="29.552">
+  <testcase name="runScenario[&quot;Verify that the user is able to select a particular brand from Women&apos;s Category&quot;, &quot;Ajio Customization&quot;](4)" classname="runner.TestRunner" time="62.542">
     <system-out><![CDATA[
 Scenario: Verify that the user is able to select a particular brand from Women's Category # src/test/resources/feature/ajio_customizatin.feature:20
   Given the user navigates to the women's category page                                   # steps.StepDefinitions.theUserNavigatesToTheWomenSCategoryPage()
   When the user selects particular brand from women's category                            # steps.StepDefinitions.theUserSelectsParticularBrandFromWomenSCategory()
   Then the products from women's section of the particular brand gets displayed           # steps.StepDefinitions.theProductsFromWomenSSectionOfTheParticularBrandGetsDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 15178
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 44566
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677149016.685][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 23, 2023 4:13:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677484246.074][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 1:20:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+Feb 27, 2023 1:21:45 PM org.openqa.selenium.os.OsProcess destroy
+SEVERE: Unable to kill process Process[pid=15116, exitValue=1]
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that the user is able to select the product of the particular brand selected from men&apos;s category&quot;, &quot;Ajio Customization&quot;](5)" classname="runner.TestRunner" time="30.357">
+  <testcase name="runScenario[&quot;Verify that the user is able to select the product of the particular brand selected from men&apos;s category&quot;, &quot;Ajio Customization&quot;](5)" classname="runner.TestRunner" time="69.779">
     <system-out><![CDATA[
 Scenario: Verify that the user is able to select the product of the particular brand selected from men's category # src/test/resources/feature/ajio_customizatin.feature:25
   Given the user navigates to the page of men's category                                                          # steps.StepDefinitions.theUserNavigatesToThePageOfMenSCategory()
@@ -144,77 +146,137 @@ Scenario: Verify that the user is able to select the product of the particular b
   And the user selects particular product from the brand in men's section                                         # steps.StepDefinitions.theUserSelectsParticularProductFromTheBrandInMenSSection()
   Then the product page gets displayed                                                                            # steps.StepDefinitions.theProductPageGetsDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 30580
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 38657
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677149047.382][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 23, 2023 4:14:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677484308.946][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 1:21:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that the user is able to select the product of the particular brand selected from women&apos;s category&quot;, &quot;Ajio Customization&quot;](6)" classname="runner.TestRunner" time="33.606">
+  <testcase name="runScenario[&quot;Verify that the user is able to select the product of the particular brand selected from women&apos;s category&quot;, &quot;Ajio Customization&quot;](6)" classname="runner.TestRunner" time="79.882">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&quot;https://assets.ajio.com/medias/sys_master/root/20220704/75u0/62c2fdb2aeb26921af5eef35/levis_blue_710_mid-wash_super_skinny_fit_jeans.jpg&quot;]&quot;}&#10;  (Session info: chrome=110.0.5481.177)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-5B2D3S7&apos;, ip: &apos;192.168.1.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\sudan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aaf29cb51d0540adbd053464ded406e4&#10;*** Element info: {Using=xpath, value=//img[@src=&quot;https://assets.ajio.com/medias/sys_master/root/20220704/75u0/62c2fdb2aeb26921af5eef35/levis_blue_710_mid-wash_super_skinny_fit_jeans.jpg&quot;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="https://assets.ajio.com/medias/sys_master/root/20220704/75u0/62c2fdb2aeb26921af5eef35/levis_blue_710_mid-wash_super_skinny_fit_jeans.jpg"]"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5B2D3S7', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\sudan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aaf29cb51d0540adbd053464ded406e4
+*** Element info: {Using=xpath, value=//img[@src="https://assets.ajio.com/medias/sys_master/root/20220704/75u0/62c2fdb2aeb26921af5eef35/levis_blue_710_mid-wash_super_skinny_fit_jeans.jpg"]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at steps.StepDefinitions.theUserSelectsParticularProductFromTheBrandInWomenSSection(StepDefinitions.java:168)
+	at ✽.the user selects particular product from the brand in women's section(file:///C:/Users/sudan/IdeaProjectsCapG/Sprint2/src/test/resources/feature/ajio_customizatin.feature:34)
+]]></failure>
     <system-out><![CDATA[
 Scenario: Verify that the user is able to select the product of the particular brand selected from women's category # src/test/resources/feature/ajio_customizatin.feature:31
   Given the user navigates to the page of women's category                                                          # steps.StepDefinitions.theUserNavigatesToThePageOfWomenSCategory()
   When the user selects particular brand from women's section                                                       # steps.StepDefinitions.theUserSelectsParticularBrandFromWomenSSection()
   And the user selects particular product from the brand in women's section                                         # steps.StepDefinitions.theUserSelectsParticularProductFromTheBrandInWomenSSection()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src="https://assets.ajio.com/medias/sys_master/root/20220704/75u0/62c2fdb2aeb26921af5eef35/levis_blue_710_mid-wash_super_skinny_fit_jeans.jpg"]"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5B2D3S7', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\sudan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aaf29cb51d0540adbd053464ded406e4
+*** Element info: {Using=xpath, value=//img[@src="https://assets.ajio.com/medias/sys_master/root/20220704/75u0/62c2fdb2aeb26921af5eef35/levis_blue_710_mid-wash_super_skinny_fit_jeans.jpg"]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at steps.StepDefinitions.theUserSelectsParticularProductFromTheBrandInWomenSSection(StepDefinitions.java:168)
+	at ✽.the user selects particular product from the brand in women's section(file:///C:/Users/sudan/IdeaProjectsCapG/Sprint2/src/test/resources/feature/ajio_customizatin.feature:34)
+
   Then the product page gets displayed to user                                                                      # steps.StepDefinitions.theProductPageGetsDisplayedToUser()
+
+    Embedding screenshot [img/png 302240 bytes]
+
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 10779
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 21747
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677149076.419][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 23, 2023 4:14:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677484378.116][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 1:22:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that the user can be able to select a product from Kidss Category&quot;, &quot;Ajio Customization&quot;](7)" classname="runner.TestRunner" time="23.144">
+  <testcase name="runScenario[&quot;Verify that the user can be able to select a product from Kidss Category&quot;, &quot;Ajio Customization&quot;](7)" classname="runner.TestRunner" time="90.865">
     <system-out><![CDATA[
 Scenario: Verify that the user can be able to select a product from Kidss Category # src/test/resources/feature/ajio_customizatin.feature:37
   Given the user navigates to the ajio homepage                                    # steps.StepDefinitions.theUserNavigatesToTheAjioHomepage()
   When the user click on the option to display categories in Kidss section         # steps.StepDefinitions.theUserClickOnTheOptionToDisplayCategoriesInKidssSection()
   Then the brands and offers under Kids section to be displayed.                   # steps.StepDefinitions.theBrandsAndOffersUnderKidsSectionToBeDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 25867
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 22557
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677149110.337][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 23, 2023 4:15:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677484457.375][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 1:24:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to search two products&quot;, &quot;Ajio Customization&quot;](8)" classname="runner.TestRunner" time="31.173">
+  <testcase name="runScenario[&quot;User should be able to search two products&quot;, &quot;Ajio Customization&quot;](8)" classname="runner.TestRunner" time="119.636">
     <system-out><![CDATA[
 Scenario Outline: User should be able to search two products # src/test/resources/feature/ajio_customizatin.feature:48
   Given the user navigates to the homepage of ajio           # steps.StepDefinitions.theUserNavigatesToTheHomepageOfAjio()
   When the user clicks on searchbar and enters "jeans"       # steps.StepDefinitions.theUserClicksOnSearchbarAndEnters(java.lang.String)
   Then Products gets displayed                               # steps.StepDefinitions.productsGetsDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 37013
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 2400
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677149132.903][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 23, 2023 4:15:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677484552.347][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 1:25:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to search two products&quot;, &quot;Ajio Customization&quot;](9)" classname="runner.TestRunner" time="35.788">
+  <testcase name="runScenario[&quot;User should be able to search two products&quot;, &quot;Ajio Customization&quot;](9)" classname="runner.TestRunner" time="58.86">
     <system-out><![CDATA[
 Scenario Outline: User should be able to search two products # src/test/resources/feature/ajio_customizatin.feature:49
   Given the user navigates to the homepage of ajio           # steps.StepDefinitions.theUserNavigatesToTheHomepageOfAjio()
-  When the user clicks on searchbar and enters "bags"        # steps.StepDefinitions.theUserClicksOnSearchbarAndEnters(java.lang.String)
+  When the user clicks on searchbar and enters "caps"        # steps.StepDefinitions.theUserClicksOnSearchbarAndEnters(java.lang.String)
   Then Products gets displayed                               # steps.StepDefinitions.productsGetsDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 13431
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 29664
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677149164.357][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 23, 2023 4:16:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677484668.919][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 27, 2023 1:27:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

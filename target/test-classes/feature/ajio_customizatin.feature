@@ -46,7 +46,7 @@ Feature: Ajio Customization
     Examples:
     | product1 |
     | jeans    |
-    | bags     |
+    | caps     |
 
 
 

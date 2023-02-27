@@ -204,6 +204,7 @@ public class StepDefinitions {
     @When("the user clicks on searchbar and enters {string}")
     public void theUserClicksOnSearchbarAndEnters(String product1) throws InterruptedException {
         homePage = new HomePage(driver);
+        //explicit wait
         WebDriverWait wait=new WebDriverWait(driver,3); //explicit wait
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@name=\"searchVal\"]"))));
         homePage.searchbox().click();

@@ -29,7 +29,7 @@ public class HomePage {
     public WebElement B_Superdry(){
         return B_Superdry;
     }
-    @FindBy(xpath="//a[@href=\"/superdry-sports-recharge-body-spray-200ml/p/410270322_orange\"]")
+    @FindBy(xpath="//img[@src=\"https://assets.ajio.com/medias/sys_master/root/hd3/hfb/15699502006302/superdry_lauren_navy_blue_classic_pool_sliders.jpg\"]")
     WebElement Product_Superdry;
     public WebElement Product_Superdry(){
         return Product_Superdry;
