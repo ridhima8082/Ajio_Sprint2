@@ -29,7 +29,7 @@ public class HomePage {
     public WebElement B_Superdry(){
         return B_Superdry;
     }
-    @FindBy(xpath="//a[@href=\"/superdry-sports-recharge-body-spray-200ml/p/410270322_orange\"]")
+    @FindBy(xpath="//img[@src=\"https://assets.ajio.com/medias/sys_master/root/hd3/hfb/15699502006302/superdry_lauren_navy_blue_classic_pool_sliders.jpg\"]")
     WebElement Product_Superdry;
     public WebElement Product_Superdry(){
         return Product_Superdry;
@@ -40,13 +40,14 @@ public class HomePage {
     public WebElement B_Levis(){
         return B_Levis;
     }
-
-    @FindBy(xpath="//a[@href=\"/levis-203140-uv-protected-full-rim-oval-sunglasses/p/460884997_black\"]")
+    //img[@src="https://assets.ajio.com/medias/sys_master/root/20220427/j4s7/62684207aeb26921af44fc76/levis_pink_204331_full-rim_oversized_sunglasses.jpg"]
+    //img[@src=\"https://assets.ajio.com/medias/sys_master/root/20220611/LRou/62a39aecf997dd03e27184d5/levis_pink_brand_print_crew-neck_t-shirt.jpg\"]"
+    @FindBy(xpath="//img[@src=\"https://assets.ajio.com/medias/sys_master/root/20220704/75u0/62c2fdb2aeb26921af5eef35/levis_blue_710_mid-wash_super_skinny_fit_jeans.jpg\"]")
     WebElement Product_Levis;
+    //div[@class="469203848001"]
     public WebElement Product_Levis(){
         return Product_Levis;
     }
-
     @FindBy(xpath="//a[@title=\"KIDS\"]")
     WebElement Kids;
     public WebElement Kids(){
@@ -58,11 +59,16 @@ public class HomePage {
     public WebElement searchbox(){
         return searchbox;
     }
-    //div[@class="length"]
-    @FindBy(xpath="//div[@class=\"length\"]")
-    WebElement FoundElements;
-    public WebElement FoundElements(){
-        return FoundElements;
+
+    @FindBy(xpath="//div[@class=\"header2\"]")
+    WebElement Outcome;
+    public WebElement Outcome(){
+        return Outcome;
+    }
+    @FindBy(xpath="//button[@class=\"rilrtl-button\"]")
+    WebElement SearchButton;
+    public WebElement SearchButton(){
+        return SearchButton;
     }
 
 
